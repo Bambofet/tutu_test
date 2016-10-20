@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Туту</string>
+    <string name="startPoint">Станция отправления</string>
+    <string name="destPoint">Станция прибытия</string>
+    <string name="departDate">Дата отправления</string>
+    <string name="about">О приложении</string>
+    <string name="search">поиск</string>
+
+    <!--Activity names-->
+
+    <string name="selectStationActivityLabel">Станции</string>
+    <string name="stationInformationActivityLabel">Информация о станции</string>
+    <string name="aboutActivityLabel">О программе</string>
+    <string name="calendarActivityLabel">Дата отправления</string>
+
+</resources>

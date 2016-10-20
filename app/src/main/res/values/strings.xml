@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TuTu</string>
+    <string name="startPoint">Starting point</string>
+    <string name="destPoint">Destination point</string>
+    <string name="departDate">Departure date</string>
+    <string name="about">About app</string>
+    <string name="search">Search</string>
+
+    <!--Activity names-->
+
+    <string name="selectStationActivityLabel">Select Station</string>
+    <string name="stationInformationActivityLabel">Station Information</string>
+    <string name="aboutActivityLabel">About</string>
+    <string name="calendarActivityLabel">Select date</string>
+
+</resources>

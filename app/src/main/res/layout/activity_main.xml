@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:orientation="vertical"
+    tools:context="com.example.tuturu_test_api21.MainActivity">
+
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/startPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/startPoint"
+        android:textSize="24sp"
+        android:onClick="selectStationFrom"
+        android:lineSpacingExtra="15dp"
+        android:clickable="true"
+        android:inputType="none"
+        android:textColor="@color/colorBlack"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    <TextView
+
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/destPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="selectStationTo"
+        android:hint="@string/destPoint"
+        android:lineSpacingExtra="15dp"
+        android:textSize="24sp"
+        android:clickable="true"
+        android:inputType="none"
+        android:gravity=""
+        android:textColor="@color/colorBlack"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+
+    <TextView
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/departDate"
+        android:layout_width="match_parent"
+        android:onClick="selectDate"
+        android:textSize="24sp"
+        android:inputType="none"
+        android:layout_height="wrap_content"
+        android:hint="@string/departDate"
+        android:clickable="true"
+        android:lineSpacingExtra="15dp"
+        android:textColor="@color/colorBlack"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+
+
+
+</LinearLayout>
+
